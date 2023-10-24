@@ -2,6 +2,13 @@
 <div>
 	<div class="jumbotron  clearfix">
 	</div>
+	{% if page.noimage %}
+		{% else %}
+		<img
+			alt="{{ page.title }}"
+			src="/assets/images/{{page.id}}/top.jpg" class="img-responsive">
+		{% endif %}
+		<h1 class="text-center">{{ page.title }}</h1>
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="jumbotron  clearfix">
 
@@ -51,11 +58,5 @@
 			</div>
 		</div>
 	</nav>
-		{% if page.noimage %}
-		{% else %}
-		<img
-			alt="{{ page.title }}"
-			src="/assets/images/{{page.id}}/top.jpg" class="img-responsive">
-		{% endif %}
-		<h1 class="text-center">{{ page.title }}</h1>
+		
 </div>
