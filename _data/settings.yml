@@ -1,7 +1,5 @@
 # Change 'comments' to true for Disqus comments
-disqus:
-  comments: true
-  disqus_shortname: 'apham'
+
 
 # If you are not using Google Analytics, please change 'google-ID' to an empty string
 google-ID: 'UA-'
@@ -19,8 +17,6 @@ menu:
     link: /tags
    - name: 项目
     link: /
-
- 
   - name: 联系我们
     submenu:
       - name: GitHub
