@@ -4,7 +4,7 @@ disqus:
   disqus_shortname: 'apham'
 
 # If you are not using Google Analytics, please change 'google-ID' to an empty string
-google-ID: 'UA-91332049-1'
+google-ID: 'UA-'
 
 menu: 
   - name: Featured Projects
@@ -13,13 +13,15 @@ menu:
         link: /projects/microbam
       - name: OurLegacy
         link: /projects/ourlegacy
-  - name: Posts
-    link: /
-  - name: Tags
-    link: /tags
-  - name: About
+   - name: 关于我们
     link: /about
-  - name: Follow me
+   - name: 标签
+    link: /tags
+   - name: 项目
+    link: /
+
+ 
+  - name: 联系我们
     submenu:
       - name: GitHub
         icon: github
