@@ -11,13 +11,13 @@ menu:
         link: /projects/microbam
       - name: OurLegacy
         link: /projects/ourlegacy
-   - name: 关于我们
+   - name: About
     link: /about
-   - name: 标签
+   - name: tags
     link: /tags
-   - name: 项目
+   - name:Projects
     link: /
-  - name: 联系我们
+  - name: Follow me
     submenu:
       - name: GitHub
         icon: github
