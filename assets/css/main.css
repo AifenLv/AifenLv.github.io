@@ -12,7 +12,10 @@ body {
 }
 
 h1 {
-	counter-reset: h2counter;
+	counter-reset: h2counter;   /*这段 CSS 代码表示对 <h1> 元素进行样式设置，并在其中使用了 counter-reset 属性来重置一个名为 h2counter 的计数器。
+	具体来说，counter-reset: h2counter; 将计数器 h2counter 的初始值重置为默认值（通常为 0）。这意味着每当遇到 <h1> 元素时，该计数器的值将被重置为 0。
+	
+	通常情况下，此代码片段可能是用于在页面中创建标题层次结构的计数器。通过为每个标题级别（例如 <h1>、<h2>、<h3> 等）分别定义计数器并进行适当的重置和增量操作，可以自动生成有序的标题编号。*/
 }
 
 h2 {
@@ -76,6 +79,7 @@ h3:before {
 	border-color: #12421f;
 	text-transform: uppercase;
 	font-size: 1.3em;
+	text-align: center;
 }
 
 .navbar-default .navbar-brand {
